@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 *.pdf filter=lfs diff=lfs merge=lfs -text
+Livros[[:space:]]* filter=lfs diff=lfs merge=lfs -text
